@@ -1,6 +1,7 @@
 # bad_code.py  ← intentionally bad code for agent to review
 import os
 import warnings
+warnings.filterwarnings("ignore")
 import sys
 password = "admin123"        # security issue!
 def add(a,b):                # style issue!
