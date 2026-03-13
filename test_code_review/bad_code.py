@@ -1,5 +1,6 @@
 # bad_code.py  ← intentionally bad code for agent to review
 import os
+from pathlib import Path
 import warnings
 warnings.filterwarnings("ignore")
 import sys
